@@ -1,0 +1,41 @@
+{
+ "app": "FAROLayby",
+ "charts": [],
+ "content": "[{\"id\":\"1S3ZHtxHQR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">FaroLayBy</span>\",\"col\":12}},{\"id\":\"VUG9sm4kQO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New LayBy\",\"col\":3}}]",
+ "creation": "2024-11-25 15:19:39.942308",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "external-link",
+ "idx": 10,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "FAROLayby",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2024-11-25 18:48:53.094285",
+ "modified_by": "Administrator",
+ "module": "Farolayby",
+ "name": "FAROLayby",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "FaroLayBy",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "New LayBy",
+   "link_to": "LayBy",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "FAROLayby",
+ "type": "Workspace"
+}

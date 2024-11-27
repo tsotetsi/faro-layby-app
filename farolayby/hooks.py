@@ -11,15 +11,14 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "farolayby",
-# 		"logo": "/assets/farolayby/logo.png",
-# 		"title": "Farolayby",
-# 		"route": "/farolayby",
-# 		"has_permission": "farolayby.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "farolayby",
+		"logo": "/assets/farolayby/images/logo.png",
+		"title": "Farolayby",
+		"route": "/app/farolayby"
+	}
+]
 
 # Includes in <head>
 # ------------------
@@ -131,10 +130,9 @@ app_license = "mit"
 # DocType Class
 # ---------------
 # Override standard doctype classes
-
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+    "Customer": "farolayby.farolayby.overrides.customer.FaroCustomCustomer"
+}
 
 # Document Events
 # ---------------
