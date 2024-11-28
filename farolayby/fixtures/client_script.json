@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Customer",
+  "enabled": 1,
+  "modified": "2024-11-29 13:13:06.486427",
+  "module": "Farolayby",
+  "name": "Farolayby_Client_Script",
+  "script": "frappe.ui.form.on(\"Customer\", \"custom_form_of_identification\", function(frm){\n    if(frm.doc.custom_form_of_identification == \"\" || frm.doc.custom_form_of_identification == \"Identification Document(ID)\" ){\n        frm.doc.custom_passport_country_of_origin = \"\"\n    }\n});\n",
+  "view": "Form"
+ }
+]

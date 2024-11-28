@@ -134,6 +134,9 @@ override_doctype_class = {
     "Customer": "farolayby.farolayby.overrides.customer.FaroCustomCustomer"
 }
 
+# Exports client scripts to local env.
+fixtures = [{"doctype": "Client Script"}]
+
 # Document Events
 # ---------------
 # Hook on document methods and events
